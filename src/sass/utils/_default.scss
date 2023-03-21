@@ -45,6 +45,7 @@ img {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  overflow: hidden;
 
   @media screen and (min-width: 480px) {
     width: 480px;
