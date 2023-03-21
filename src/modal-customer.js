@@ -21,7 +21,9 @@
     };
   
     ref.openModalBtn.addEventListener('click', toggleModal1);
+    if(ref.closeModalBtn){
     ref.closeModalBtn.addEventListener('click', toggleModal1);
+    }
   
     function toggleModal1() {
       ref.modal.classList.toggle('is-hidden');
